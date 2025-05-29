@@ -21,18 +21,26 @@ html {
 }
 
 main {
+   
     /*Alinhar ao centro:*/
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
+    position: relative;
+     width: 100vw;
+    height: 90vh;
+}
 
+section#login {
     background-color: white;
     border-radius: 30px;
-    width: 400px;
+    width: 250px;
     margin: auto;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.271);
     text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 div#imagem {
