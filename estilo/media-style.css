@@ -28,6 +28,17 @@ Grandes telas: acima de 1200px
 
     }
 
+    main h1 {
+        font-size: 2em;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    main p {
+        font-size: 1.3em;
+        padding-bottom: 30px;
+    }
+
     section#login>div#formulario {
         float: right;
         width: 65%;
@@ -44,6 +55,17 @@ Grandes telas: acima de 1200px
         width: 50%;
         height: 100%;
 
+    }
+
+    main h1 {
+        font-size: 2em;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    main p {
+        font-size: 1.3em;
+        padding-bottom: 30px;
     }
 
     section#login>div#formulario {
@@ -68,6 +90,19 @@ Grandes telas: acima de 1200px
         height: 100%;
 
     }
+
+    main h1 {
+        font-size: 2em;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    main p {
+        font-size: 1.3em;
+        padding-bottom: 30px;
+    }
+
+
 
     section#login>div#formulario {
         float: left;

@@ -33,7 +33,7 @@ section#login {
     background-color: white;
     border-radius: 30px;
     width: 300px;
-    height: 500px;
+    height: 520px;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -56,12 +56,36 @@ main h1 {
 }
 
 main p {
-    font-size: .8em;
+    font-size: 0.8em;
     padding-bottom: 10px;
 }
 
 div.campo {
-    background-color: green;
+    color: white;
+    background-color: #0e5197;
+    text-align: left;
+    border-radius: 10px;
+    margin: 5px 0px;
+}
+
+div.campo>input {
+    width: 80%;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: em;
+}
+
+div.campo>label {
+    display: none;
+}
+
+div.campo span {
+    background-color: black;
+    width: 54px;
+    font-size: 2em;
+    padding: 12px;
 }
 
 section#login>div#imagem {
